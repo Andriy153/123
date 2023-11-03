@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФК Динамо Київ</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://pibig.info/uploads/posts/2022-12/1669977821_1-pibig-info-p-krasivii-futbolnii-fon-krasivo-1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        table {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        #history, #logo, #standings, #players, #video {
+            background-color: transparent;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        thead {
+            background-color: #333; 
+        }
+
+        th {
+            padding: 10px;
+            color: #fff;
+        }
+
+        tbody {
+            background-color: rgba(255, 255, 255, 0.1); 
+        }
+
+        tr:hover {
+            background-color: rgba(255, 255, 255, 0.2); 
+        }
+
+        td, th {
+            padding: 8px;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            table, th, td {
+                font-size: 12px;
+            }
+            .table-container {
+            overflow-x: auto;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        #history {
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+        }
+
+        #history h2,
+        #history p {
+            color: #fff; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Футбольна команда "Динамо"</h1>
+        <nav>
+            <ul>
+                <li><a href="#history">Історія</a></li>
+                <li><a href="#logo">Логотип</a></li>
+                <li><a href="#standings">Турнірна таблиця</a></li>
+                <li><a href="#players">Гравці</a></li>
+                <li><a href="#video">Відео</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="history" style="text-align: center;">
+        <h2>Історія команди</h2>
+        <p>
+            Футбольний клуб "Динамо Київ" заснований у 1927 році і є однією з найвідоміших та найуспішніших команд України. Команда базується у Києві і виступає в українській Прем'єр-лізі.
+            "Динамо Київ" відзначається численними досягненнями в національному та міжнародному футболі. Клуб виграв безліч чемпіонатів України та Кубків України. Він також був представником України на міжнародних аренах, беручи участь у Лізі чемпіонів УЄФА та Лізі Європи.
+            Команда має велику кількість прихильників та фанатів як в Україні, так і за її межами. Їх гасло "Слава Україні!" завжди супроводжує гравців на полі.
+            ФК "Динамо Київ" відомий своєю багатою історією та легендарними футболістами, які виступали за цей клуб. Команда продовжує боротьбу за перемоги та віддана своїм фанатам, завжди намагаючись підняти вищі трофеї.
+        </p>
+    </section>
+    
+
+    <section id="logo" style="text-align: center;">
+        <h2>Логотип</h2>
+        <img src="https://api.nashkiev.ua/img-srv/image/width=860,quality=85/media-storage/08_2022/2022_08_08_9575e2a19186449b.jpg" style="max-width: 100%;" alt="Логотип ФК Динамо">
+    </section>
+    
+
+    <section id="standings" style="text-align: center;">
+        <h2>Турнірна таблиця 2022</h2>
+        <table border="1" style="width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th>Місце</th>
+                    <th>Команда</th>
+                    <th>Зіграно матчів</th>
+                    <th>Виграно</th>
+                    <th>Нічиїх</th>
+                    <th>Програно</th>
+                    <th>Забито голів</th>
+                    <th>Пропущено голів</th>
+                    <th>Очки</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: center;">1</td>
+                    <td style="text-align: center;">Динамо Київ</td>
+                    <td style="text-align: center;">30</td>
+                    <td style="text-align: center;">20</td>
+                    <td style="text-align: center;">7</td>
+                    <td style="text-align: center;">3</td>
+                    <td style="text-align: center;">60</td>
+                    <td style="text-align: center;">20</td>
+                    <td style="text-align: center;">67</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">2</td>
+                    <td style="text-align: center;">Шахтар Донецьк</td>
+                    <td style="text-align: center;">30</td>
+                    <td style="text-align: center;">18</td>
+                    <td style="text-align: center;">8</td>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">55</td>
+                    <td style="text-align: center;">25</td>
+                    <td style="text-align: center;">62</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">3</td>
+                    <td style="text-align: center;">Дніпро</td>
+                    <td style="text-align: center;">30</td>
+                    <td style="text-align: center;">16</td>
+                    <td style="text-align: center;">9</td>
+                    <td style="text-align: center;">5</td>
+                    <td style="text-align: center;">50</td>
+                    <td style="text-align: center;">30</td>
+                    <td style="text-align: center;">57</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">4</td>
+                    <td style="text-align: center;">Зоря Луганськ</td>
+                    <td style="text-align: center;">30</td>
+                    <td style="text-align: center;">15</td>
+                    <td style="text-align: center;">10</td>
+                    <td style="text-align: center;">5</td>
+                    <td style="text-align: center;">48</td>
+                    <td style="text-align: center;">30</td>
+                    <td style="text-align: center;">55</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">5</td>
+                    <td style="text-align: center;">Ворскла Полтава</td>
+                    <td style="text-align: center;">30</td>
+                    <td style="text-align: center;">12</td>
+                    <td style="text-align: center;">8</td>
+                    <td style="text-align: center;">10</td>
+                    <td style="text-align: center;">40</td>
+                    <td style="text-align: center;">35</td>
+                    <td style="text-align: center;">44</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+<section id="players" style="text-align: center;">
+    <h2>Основний склад команди "Динамо Київ" (Чемпіонат України 2022)</h2>
+    <table border="1" style="width: 100%; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th style="text-align: center;">Номер</th>
+                <th style="text-align: center;">Прізвище та ім'я</th>
+                <th style="text-align: center;">Позиція</th>
+                <th style="text-align: center;">Дата народження</th>
+                <th style="text-align: center;">Голів у сезоні</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: center;">Петренко Олег</td>
+                <td style="text-align: center;">Воротар</td>
+                <td style="text-align: center;">12.04.1990</td>
+                <td style="text-align: center;">0</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">7</td>
+                <td style="text-align: center;">Шевченко Андрій</td>
+                <td style="text-align: center;">Півзахисник</td>
+                <td style="text-align: center;">22.07.1995</td>
+                <td style="text-align: center;">5</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">9</td>
+                <td style="text-align: center;">Коваленко Максим</td>
+                <td style="text-align: center;">Нападник</td>
+                <td style="text-align: center;">18.09.1993</td>
+                <td style="text-align: center;">12</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">22</td>
+                <td style="text-align: center;">Сидорчук Сергій</td>
+                <td style="text-align: center;">Півзахисник</td>
+                <td style="text-align: center;">29.05.1992</td>
+                <td style="text-align: center;">3</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">28</td>
+                <td style="text-align: center;">Миколенко Віталій</td>
+                <td style="text-align: center;">Захисник</td>
+                <td style="text-align: center;">05.12.1994</td>
+                <td style="text-align: center;">1</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">10</td>
+                <td style="text-align: center;">Бєсєдін Артем</td>
+                <td style="text-align: center;">Нападник</td>
+                <td style="text-align: center;">15.04.1995</td>
+                <td style="text-align: center;">9</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">5</td>
+                <td style="text-align: center;">Шабанов Микита</td>
+                <td style="text-align: center;">Захисник</td>
+                <td style="text-align: center;">19.08.1991</td>
+                <td style="text-align: center;">0</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">19</td>
+                <td style="text-align: center;">Гармаш Олександр</td>
+                <td style="text-align: center;">Півзахисник</td>
+                <td style="text-align: center;">29.01.1990</td>
+                <td style="text-align: center;">2</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">17</td>
+                <td style="text-align: center;">Циганков Віктор</td>
+                <td style="text-align: center;">Півзахисник</td>
+                <td style="text-align: center;">20.05.1997</td>
+                <td style="text-align: center;">7</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">4</td>
+                <td style="text-align: center;">Миколенко Микола</td>
+                <td style="text-align: center;">Захисник</td>
+                <td style="text-align: center;">11.11.1993</td>
+                <td style="text-align: center;">0</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">6</td>
+                <td style="text-align: center;">Скрипник Андрій</td>
+                <td style="text-align: center;">Півзахисник</td>
+                <td style="text-align: center;">03.09.1994</td>
+                <td style="text-align: center;">4</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">18</td>
+                <td style="text-align: center;">Супряга Віталій</td>
+                <td style="text-align: center;">Нападник</td>
+                <td style="text-align: center;">19.04.1999</td>
+                <td style="text-align: center;">6</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="video" style="text-align: center;">
+    <h2>Відео</h2>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/jEGKsQVKL0Q" frameborder="0" allowfullscreen></iframe>
+</section>
+
+
+    <footer>
+        &copy; 2023 ФК Динамо Київ
+    </footer>
+</body>
+</html>
